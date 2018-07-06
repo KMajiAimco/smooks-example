@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- <groupId>com.smooks</groupId> <artifactId>smooks1</artifactId> <version>1.02-SNAPSHOT</version> 
+		<packaging>pom</packaging> <name>smooks</name> <packaging>jar</packaging> -->
+	<groupId>com.aimco.integration</groupId>
+	<version>1.09</version>
+	<artifactId>json-to-java</artifactId>
+
+	<packaging>jar</packaging>
+	<dependencies>
+		<dependency>
+			<groupId>org.milyn</groupId>
+			<artifactId>milyn-smooks-all</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.milyn</groupId>
+			<artifactId>milyn-smooks-json</artifactId>
+			<version>1.4.2</version>
+		</dependency>
+	</dependencies>
+
+</project>
